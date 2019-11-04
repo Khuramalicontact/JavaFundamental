@@ -22,7 +22,7 @@ public class HigherLower {
         while (!guessed) {
             //keyboard.nextint() means the next input of the user will be read
             int guess = keyboard.nextInt();
-            //between the () there needs to be a boolean valsue when using if ()
+            //between the () there needs to be a boolean value when using if ()
             if (guess < numberToGuess) {
                 System.out.println("higher");
             } else if (guess > numberToGuess) {

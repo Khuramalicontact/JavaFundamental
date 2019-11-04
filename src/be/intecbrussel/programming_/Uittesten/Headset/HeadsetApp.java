@@ -10,9 +10,6 @@ public class HeadsetApp {
 
         headset.setWelcome("Welcome");
         System.out.println(headset.getWelcome());
-
-
-
         headset.power();
         do {
             headset.powerMenu();

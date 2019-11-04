@@ -1,4 +1,4 @@
-package be.intecbrussel.programming_.Classe;
+package be.intecbrussel.programming_.Classe.Demo;
 
 public class PersonApp {
 
@@ -9,13 +9,10 @@ public class PersonApp {
         Person sister = new Person();
         Person brother = new Person();
 
-      sister.setName("Anne");
-       System.out.println(sister.getName());
+        sister.setName("Anne");
+        System.out.println(sister.getName());
 
-       sister.setAge(99);
+        sister.setAge(99);
         System.out.println(sister.getAge() + " jaar");
-
-        sister.setHeight(1.68);
-        System.out.println(sister.getHeight());
     }
 }

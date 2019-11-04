@@ -1,4 +1,4 @@
-package be.intecbrussel.programming_.Classe;
+package be.intecbrussel.programming_.Classe.Demo;
 
 public class Person {
 
@@ -6,6 +6,7 @@ public class Person {
     private String name;
     private int age;
     private double height;
+    private int score;
 
 
 
@@ -36,5 +37,13 @@ public class Person {
 
     public double getHeight() {
         return height;
+    }
+
+    public int getScore(int i) {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 }
